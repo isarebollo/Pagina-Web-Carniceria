@@ -6,7 +6,7 @@ export const Equipo = () => {
 
 
     return (<>
-        <div className="container-fluid text-center m-5">
+        <div className="container-fluid text-center m-5 "id="MiembrosDelEquipo">
 
             <h1 className="m-5" > Miembros del equipo</h1>
 

@@ -28,12 +28,8 @@ export const Navbar = () => {
                                 </Link>
 
                             </li>
-                            <li className="nav-item">
-                                <a href=""></a>
-                                <Link to="/" className="nav-link">
-
-                                    Sobre Nosotros
-                                </Link>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#MiembrosDelEquipo">Sobre Nosotros</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
