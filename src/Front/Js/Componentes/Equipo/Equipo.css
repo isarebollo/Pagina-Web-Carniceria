@@ -1,7 +1,7 @@
 .card {
     box-sizing: border-box;
     width: 20rem;
-    height: 32rem;
+    height: 25rem;
     background: rgba(217, 217, 217, 0.58);
     border: 2px solid rgb(106, 2, 2);
     box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
@@ -30,5 +30,6 @@
 
 .imgEquipo {
     border-radius: 80%;
+    width: 10rem;
 
 }

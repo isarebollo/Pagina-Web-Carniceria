@@ -1,6 +1,6 @@
 import React from "react";
-import { Creando2 } from "../../Componentes/Creando/Creando2";
 
+import {CardProductos} from "./../../Componentes/Card Productos/CardProductos"
 
 export const ProductosTernera =()=>{
 
@@ -8,7 +8,7 @@ return (
 
     <>
     
-    <Creando2></Creando2>
+    <CardProductos></CardProductos>
     </>
 )
 
