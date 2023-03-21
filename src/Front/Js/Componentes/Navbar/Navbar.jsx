@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { AiOutlineShoppingCart, AiOutlineSearch } from 'react-icons/ai';
 export const Navbar = () => {
@@ -19,20 +21,48 @@ export const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+
+                                <Link to="/" className="nav-link">
+
+                                    Home
+                                </Link>
+
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Sobre Nosotros </a>
+                                <Link to="/" className="nav-link">
+
+                                    Sobre Nosotros
+                                </Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Productos
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Cerdo</a></li>
-                                    <li><a className="dropdown-item" href="#">Ternera</a></li>
-                                    <li><a className="dropdown-item" href="#">Pollo/Pavo</a></li>
-                                    <li><a className="dropdown-item" href="#">Conejo</a></li>
+
+                                    <li>
+                                        <Link to="/cerdo" className="dropdown-item">
+                                            Cerdo
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/ternera" className="dropdown-item">
+                                            Ternera
+                                        </Link>
+                                    </li>
+
+                                    <li>
+                                        <Link to="/pollo" className="dropdown-item">
+                                            Pollo/Pavo
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/elaborados" className="dropdown-item">
+                                            Nuestros Elaborados
+                                        </Link>
+                                    </li>
+
+
 
                                 </ul>
                             </li>
@@ -40,7 +70,7 @@ export const Navbar = () => {
                                 <a className="nav-link" href="#">Recetas</a>
                             </li>
 
-                            <li className="nav-item dropdown">
+                            {/* <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Información de Interes
                                 </a>
@@ -50,8 +80,8 @@ export const Navbar = () => {
                                     <li><a className="dropdown-item" href="#">Contacto</a></li>
                                     <li><a className="dropdown-item" href="#">Condiciones de compra/Venta</a></li>
 
-                                </ul>
-                            </li>
+                                </ul> 
+                            </li> */}
                         </ul>
                         <form className="d-flex">
 
