@@ -59,11 +59,11 @@ export const Navbar = () => {
                             <button className="btn fs-3" type="submit"><AiOutlineSearch /></button>
                         </form>
                     </div>
-                    <div className="mx-auto">
+                    {/* <div className="mx-auto">
                         <button className="btn fs-3"> <BsFillPersonLinesFill /></button>
                         <button className="btn fs-3"> <AiOutlineShoppingCart /></button>
 
-                    </div>
+                    </div> */}
 
                 </div>
             </nav>

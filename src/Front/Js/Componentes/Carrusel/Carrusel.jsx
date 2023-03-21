@@ -12,7 +12,7 @@ export const Carrusel = () => {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-                <img
+                <img 
                     className="d-block w-100"
                     src="https://www.supermasymas.com/blog/wp-content/uploads/2021/05/carniceria-corte-carne.jpg"
                     alt="First slide"
