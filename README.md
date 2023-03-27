@@ -52,4 +52,3 @@ Consulte la sección sobre [implementación](https://facebook.github.io/create-r
 | [<img src="https://avatars.githubusercontent.com/u/95927789?v=4" width=115><br><sub>Isabel Rebollo Corraliza</sub>](https://github.com/isarebollo) |
 | :---: |
 
-<script src="https://gist.github.com/rxaviers/7360908.js"></script>
